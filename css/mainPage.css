@@ -50,6 +50,14 @@
     color: #EAEAEA;
 }
 
+.border-img {
+    width: 17%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
 .invite-header {
     font-size: 280%;
 }
