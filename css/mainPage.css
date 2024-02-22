@@ -1,6 +1,6 @@
 .bg-img {
     background-color: rgb(58, 43, 194);
-    min-height: 620px;
+    min-height: 560px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -70,7 +70,7 @@
 }
 
 .input-container{
-    padding-top: 50px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,16 +83,17 @@
     padding: 12px 20px;
     width: 300px;
     border-radius: 5px;
+    color: #0743bb;
 }
 
 .sender-button{
-    background: #EAEAEA;
+    background: #1deeba;
     border-radius: 5px;
     font-family: "Segoe UI", sans-serif;
     font-weight: bold;
     height: 45px;
     width: 100px;
     text-align: center;
-    margin-left: 30px;
-    color: #252A34;
+    margin-left: 20px;
+    color: #0743bb;
 }
