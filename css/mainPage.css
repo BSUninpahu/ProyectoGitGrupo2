@@ -1,0 +1,90 @@
+.bg-img {
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 10%;
+    padding-right: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.topnav a {
+    font-family: "Segoe UI";
+    float: left;
+    color: #EAEAEA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    background-color: #EAEAEA;
+    border-radius: 6px;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+    color: #252A34;
+}
+
+.main-information{
+    font-family: "Segoe UI";
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    text-align: center;
+    color: #EAEAEA;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EAEAEA;
+}
+
+.hook-text{
+    font-family: Calibri;
+    text-align: center;
+}
+
+.input-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input{
+    font-family: "Segoe UI";
+    font-weight: bold;
+    height: 20px;
+    padding: 12px 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.sender-button{
+    background: #EAEAEA;
+    border-radius: 5px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    color: #252A34;
+}
