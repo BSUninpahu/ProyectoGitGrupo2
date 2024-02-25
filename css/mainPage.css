@@ -1,3 +1,9 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .bg-img {
     background-color: rgb(58, 43, 194);
     min-height: 520px;
