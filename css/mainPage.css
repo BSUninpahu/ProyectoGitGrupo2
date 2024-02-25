@@ -1,10 +1,11 @@
 .bg-img {
-    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    min-height: 720px;
+    background-color: blue;
+    min-height: 640px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
 }
 
 .logo {
@@ -59,6 +60,11 @@
 .hook-text{
     font-family: Calibri;
     text-align: center;
+    font-size: 40px;
+    margin-top: auto;
+}
+.invite-header{
+    font-size: 60px;
 }
 
 .input-container{
@@ -78,7 +84,7 @@
 }
 
 .sender-button{
-    background: #EAEAEA;
+    background: #92ebf1;
     border-radius: 5px;
     font-family: "Segoe UI", sans-serif;
     font-weight: bold;
@@ -87,4 +93,36 @@
     text-align: center;
     margin-left: 30px;
     color: #252A34;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span1{
+    width: 92px;
+    height: 82px;
+    position: relative;
+    left: 1708px;
+    top: 558px;
+    background: rgb(255, 94, 94);
+    border-radius: 90px 0px 0px 0px;
+}
+.bubbles span2{
+    width: 97px;
+    height: 82px;
+    position: relative;
+    left: 1712px;
+    top: 558px;
+    background: rgb(10, 0, 104);
+    border-radius: 90px 0px 0px 0px;
+}
+.bubbles span3{
+    width: 97px;
+    height: 82px;
+    position: relative;
+    left: 1617px;
+    top: 460px;
+    background: rgb(22, 191, 233);
+    border-radius: 65px 60px 60px 65px;
 }
