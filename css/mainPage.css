@@ -88,3 +88,34 @@
     margin-left: 30px;
     color: #252A34;
 }
+.img{
+    align-items: center;
+    height: 100%;
+}
+.text{
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 10px;
+}
+.logos{
+    width: 100%;
+    display: flex;
+    padding-left: 25%;
+    align-items: center;
+}
+.iconos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    block-size: auto;
+    justify-content: center;
+    justify-items: center;
+}
+.cards{
+    width: 183px;
+    height: 150px;
+    background-repeat: no-repeat;
+    gap: 10px;
+    align-content: center;
+    margin: 10px;
+}
