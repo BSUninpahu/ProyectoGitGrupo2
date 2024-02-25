@@ -125,7 +125,7 @@ body {
 }
 
 .second-section {
-    margin: -3%;
+    margin: -1.5%;
     background-color: rgb(255, 255, 255);
     padding: 50px 0;
 }
@@ -138,6 +138,10 @@ body {
     color: #06389c;
 }
 
+.logos{
+    padding-top: 2%;
+}
+
 .logos, .more-logos {
     display: flex;
     justify-content: center;
@@ -147,5 +151,5 @@ body {
 
 .logos img, .more-logos img {
     max-width: 150px;
-    margin: 0 20px;
+    margin: 0 2%;
 }
