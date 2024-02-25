@@ -111,3 +111,41 @@ body {
     margin-left: 20px;
     color: #0743bb;
 }
+
+/* Modificaciones por Karina */
+
+@font-face {
+    font-family: "Jane CapsBold W00 Regular";
+    src: url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.svg#Jane CapsBold W00 Regular")format("svg");
+}
+
+.second-section {
+    margin: -3%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.trusted-text {
+    letter-spacing: 3px;
+    font-family: "Jane CapsBold W00 Regular";
+    text-align: center;
+    text-transform: uppercase;
+    color: #06389c;
+}
+
+.logos, .more-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logos img, .more-logos img {
+    max-width: 150px;
+    margin: 0 20px;
+}
