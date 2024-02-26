@@ -1,3 +1,9 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .bg-img {
     background-color: rgb(58, 43, 194);
     min-height: 520px;
@@ -102,37 +108,181 @@
     height: 45px;
     width: 100px;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 20px;
+    color: #0743bb;
+}
+
+/* Modificaciones por Karina */
+
+@font-face {
+    font-family: "Jane CapsBold W00 Regular";
+    src: url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.eot");
+    src: url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4c7e684943d99e7368c8a61ec5475d4c.svg#Jane CapsBold W00 Regular")format("svg");
+}
+
+.second-section {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.trusted-text {
+    letter-spacing: 3px;
+    font-family: "Jane CapsBold W00 Regular";
+    text-align: center;
+    text-transform: uppercase;
+    color: #06389c;
+}
+
+.logos{
+    padding-top: 2%;
+}
+
+.logos, .more-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logos img, .more-logos img {
+    max-width: 150px;
+    margin: 0 2%;
+}
+
+
+.third-selection {
+    margin-top: -3%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.testimonial-header {
+    font-family: "Jane CapsBold W00 Regular", sans-serif;
+    text-align: center;
     color: #252A34;
 }
-.img{
-    align-items: center;
-    height: 100%;
-}
-.text{
-    text-align: center;
-    font-family: "Segoe UI";
-    font-size: 10px;
-}
-.logos{
-    width: 100%;
-    display: flex;
-    padding-left: 25%;
-    align-items: center;
-}
-.iconos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
 
-    block-size: auto;
+.cylinders {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.cylinder1 {
+    margin-right: -40%;
+    width: 300px;
+    height: 600px;
+    background-color: #96dcf1;
+    /* border: 2px solid #ffffff; */
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.cylinder2 {
+    margin-right: -40%;
+    width: 300px;
+    height: 600px;
+    background-color: #95ebe6;
+    border: 2px solid #ffffff;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.cylinder3 {
+    width: 300px;
+    height: 600px;
+    background-color: #e7c1f7;
+    border: 2px solid #ffffff;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.zone {
+    
+    width: 100%;
+    height: 60%;
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
 }
-.cards{
-    width: 183px;
-    height: 150px;
-    background-repeat: no-repeat;
-    gap: 10px;
-    align-content: center;
-    margin: 10px;
+
+.zone img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+
 }
+
+.zone5{
+    margin-top: -10px;
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.zone52{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.description {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 118%;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.read-story {
+    margin-top: -3%;
+    color: blue;
+    cursor: pointer;
+    text-align: right;
+    margin-left: 45%;
+
+}
+
+.read-story2 {
+    margin-top: -3%;
+    color: blue;
+    cursor: pointer;
+    text-align: left;
+    margin-right: 45%;
+
+}
+
+
+.logo-image {
+    max-width: 150px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+>>>>>>> origin/actualizacionKarina
