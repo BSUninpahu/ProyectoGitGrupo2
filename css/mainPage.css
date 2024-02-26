@@ -1,23 +1,23 @@
 .bg-img {
-    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    min-height: 720px;
+    background-color: rgb(58, 43, 194);
+    min-height: 520px;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
 .logo {
-    width: 10%;
-    padding-right: 10px;
+    width: 7%;
+    padding-right: 40px;
 }
 
 .topnav {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 1px;
     align-items: center;
+    margin-bottom: -4%;
 }
 
 .topnav a {
@@ -27,14 +27,15 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .topnav a:hover {
     background-color: #EAEAEA;
     border-radius: 6px;
     font-family: "Segoe UI Semibold";
-    font-size: 20px;
+    font-size: 15px;
     color: #252A34;
 }
 
@@ -49,11 +50,26 @@
     color: #EAEAEA;
 }
 
+.border-img {
+    width: 17%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.invite-header {
+    font-size: 280%;
+}
+
 .call-to-action{
+    font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #EAEAEA;
+    margin-top: -4%;
+    font-size: 150%;
 }
 
 .hook-text{
@@ -62,7 +78,7 @@
 }
 
 .input-container{
-    padding-top: 50px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,16 +91,17 @@
     padding: 12px 20px;
     width: 300px;
     border-radius: 5px;
+    color: #0743bb;
 }
 
 .sender-button{
-    background: #EAEAEA;
+    background: #1deeba;
     border-radius: 5px;
     font-family: "Segoe UI", sans-serif;
     font-weight: bold;
     height: 45px;
     width: 100px;
     text-align: center;
-    margin-left: 30px;
-    color: #252A34;
+    margin-left: 20px;
+    color: #0743bb;
 }
