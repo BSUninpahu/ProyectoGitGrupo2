@@ -283,3 +283,31 @@ body {
     margin-right: 100px;
     margin-top: 20px;
 }
+.footer{
+    background-color:  rgb(58, 43, 194);
+    height: 110px;
+}
+.contacto {
+    position: absolute;
+    padding: 10px ;    
+    left: 650px;
+}
+.instagram{
+
+    position: absolute;
+    left: 350px;
+    padding: 10px;
+    
+}
+
+.maps{
+    position: absolute;
+    padding: 10px ;    
+    left: 950px;
+}
+.sobre_nosotro{
+    position: absolute;
+    padding: 20px;
+    left: 50px;
+}
+
