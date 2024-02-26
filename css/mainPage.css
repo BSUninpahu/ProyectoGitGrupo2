@@ -1,5 +1,5 @@
 .bg-img {
-    background-color: blue;
+    background-color: rgb(63, 19, 192);
     min-height: 640px;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 
 .logo {
-    width: 10%;
+    width: 160px;
     padding-right: 10px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .input-container{
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,34 +95,24 @@
     color: #252A34;
 }
 
-.bubbles{
-    position: relative;
+.tittle2{
+    text-align: center;
+    color: rgb(2, 2, 151);
+}
+
+
+.org {
     display: flex;
+    justify-content: space-between;
 }
-.bubbles span1{
-    width: 92px;
-    height: 82px;
-    position: relative;
-    left: 1708px;
-    top: 558px;
-    background: rgb(255, 94, 94);
-    border-radius: 90px 0px 0px 0px;
+img{
+    margin: 30px;
 }
-.bubbles span2{
-    width: 97px;
-    height: 82px;
-    position: relative;
-    left: 1712px;
-    top: 558px;
-    background: rgb(10, 0, 104);
-    border-radius: 90px 0px 0px 0px;
+.org img{
+    width: 150px;
+    height: 60px;
 }
-.bubbles span3{
-    width: 97px;
-    height: 82px;
-    position: relative;
-    left: 1617px;
-    top: 460px;
-    background: rgb(22, 191, 233);
-    border-radius: 65px 60px 60px 65px;
+.org1 img{
+    width: 150px;
+    height: 60px;
 }
