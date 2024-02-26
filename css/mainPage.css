@@ -74,7 +74,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #EAEAEA;
-    margin-top: -4%;
+    margin-top: 10px;
     font-size: 150%;
 }
 
@@ -84,7 +84,8 @@ body {
 }
 
 .input-container{
-    padding-top: 25px;
+    margin-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,8 +220,6 @@ body {
     position: relative;
 }
 
-
-
 .zone {
     
     width: 100%;
@@ -266,7 +265,7 @@ body {
     cursor: pointer;
     text-align: right;
     margin-left: 45%;
-
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .read-story2 {
@@ -275,7 +274,7 @@ body {
     cursor: pointer;
     text-align: left;
     margin-right: 45%;
-
+    font-family: 'Segoe UI', sans-serif;
 }
 
 
@@ -284,5 +283,3 @@ body {
     margin-right: 100px;
     margin-top: 20px;
 }
-
->>>>>>> origin/actualizacionKarina
