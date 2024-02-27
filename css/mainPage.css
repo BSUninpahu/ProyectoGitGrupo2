@@ -17,6 +17,12 @@ body {
     padding-right: 40px;
 }
 
+.logoA {
+    width: 70%;
+    padding-right: 40px;
+    
+}
+
 .topnav {
     overflow: hidden;
     display: flex;
@@ -26,7 +32,19 @@ body {
     margin-bottom: -4%;
 }
 
-.topnav a {
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 43, 194);
+  }
+  
+.topnav li {
+    float: left;
+  }
+  
+.topnav li a {
     font-family: "Segoe UI";
     float: left;
     color: #EAEAEA;
@@ -35,14 +53,14 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-}
+  }
 
-.topnav a:hover {
-    background-color: #EAEAEA;
+.topnav li a:hover {
+    background-color: #3e2020;
     border-radius: 6px;
     font-family: "Segoe UI Semibold";
     font-size: 15px;
-    color: #252A34;
+    color: #e1e4eb;
 }
 
 .main-information{
