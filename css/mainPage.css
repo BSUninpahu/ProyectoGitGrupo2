@@ -149,11 +149,29 @@ body {
     margin-top: 20px;
 }
 
-.logos img, .more-logos img {
-    max-width: 150px;
+a{
+    max-width: 135px;
+    margin: 0 2%;
+}
+.logos img {
+    max-width: 135px;
+    margin: 0 2%;
+}
+.more-logos img {
+    max-width: 190px;
+    margin: 0 2%;
+}
+.la{
+    max-width: 190px;
     margin: 0 2%;
 }
 
+img{
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.2); 
+}
 
 .third-selection {
     margin-top: -3%;
