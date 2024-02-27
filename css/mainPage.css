@@ -290,7 +290,7 @@ body {
 .contacto {
     position: absolute;
     padding: 10px ;    
-    left: 650px;
+    left: 550px;
 }
 .instagram{
 
@@ -303,7 +303,7 @@ body {
 .maps{
     position: absolute;
     padding: 10px ;    
-    left: 950px;
+    left: 750px;
 }
 .sobre_nosotro{
     position: absolute;
@@ -311,3 +311,19 @@ body {
     left: 50px;
 }
 
+.tarjeta{
+    position: absolute;
+    padding: 10px ;    
+    left: 920px;
+
+}
+.twiter{
+    position: absolute;
+    padding: 10px ;    
+    left: 1100px;
+}
+.pinteres{
+    position: absolute;
+    padding: 10px ;    
+    left: 1300px;
+}
