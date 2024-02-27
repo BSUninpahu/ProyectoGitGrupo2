@@ -82,6 +82,15 @@ body {
     opacity: 0.8;
 }
 
+.forma-img {
+    width: 13%;
+    top: 0;
+    left: 0;
+    margin-top: 17%;
+    margin-right: 95%;
+    position: absolute;
+}
+
 .invite-header {
     font-size: 280%;
 }
@@ -350,16 +359,16 @@ img:hover{
 .tarjeta{
     position: absolute;
     padding: 10px ;    
-    left: 920px;
+    left: 900px;
 
 }
 .twiter{
     position: absolute;
     padding: 10px ;    
-    left: 1100px;
+    left: 1050px;
 }
 .pinteres{
     position: absolute;
     padding: 10px ;    
-    left: 1300px;
+    left: 1200px;
 }
