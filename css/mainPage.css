@@ -62,7 +62,40 @@ body {
     font-size: 15px;
     color: #e1e4eb;
 }
+.figure4 {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    top: 509px;
+    right: -53px;
+    border-radius: 100% 0% 0% 0%;
+    transform: translate(-50%, -50%);
+    background-color:#10047c;
+    padding: 10px; 
+  }
+  .figure5 {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    top: 509px;
+    right: 58px;
+    border-radius: 100% 0% 0% 0%;
+    transform: translate(-50%, -50%);
+    background-color:#d16262;
+    padding: 10px; 
+  }
 
+  .cicle4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 415px;
+    right: -40px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    background-color:#00ecec;
+    padding: 10px; 
+  }
 .main-information{
     font-family: "Segoe UI";
     font-size: 24px;
