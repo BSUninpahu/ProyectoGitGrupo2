@@ -261,7 +261,7 @@ img:hover{
 .cylinder3 {
     margin-left: -15%;
     width: 300px;
-    height: 600px;
+    height: 650px;
     background-color: #e7c1f7;
     border: 2px solid #ffffff;
     border-top-left-radius: 9999px;
@@ -325,8 +325,8 @@ img:hover{
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 282px;
-    left: 25px;
+    top: 283px;
+    left: 24px;
     border-radius: 0px 0px 50px 0px;
     transform: translate(-50%, -50%);
     background-color:#cbbfd1;
@@ -337,8 +337,8 @@ img:hover{
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 232px;
-    left: 25px;
+    top: 233px;
+    left: 24px;
     border-radius: 100%;
     transform: translate(-50%, -50%);
     background-color:#cbbfd1;
