@@ -447,12 +447,12 @@ img:hover{
 .contacto {
     position: absolute;
     padding: 10px ;    
-    left: 550px;
+    left: 600px;
 }
 .instagram{
 
     position: absolute;
-    left: 350px;
+    left: 460px;
     padding: 10px;
     
 }
@@ -537,4 +537,34 @@ input[type="submit"] {
     font-size: 16px;
     cursor: pointer;
 }
-
+#scrollToBottomBtn{
+    display: none;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 90px;
+    z-index: 199;
+    font-size: 18px;
+}
+#scrollToTopBtn{
+    display: none;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 199;
+    font-size: 18px;
+}
+.Facebook{
+    position: absolute;
+    left: 320px;
+    padding: 3px;
+    
+}
+.Gmail{
+    position: absolute;
+    left: 200px;
+    padding: 10px;
+}
