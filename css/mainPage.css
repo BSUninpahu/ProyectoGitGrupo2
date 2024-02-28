@@ -90,6 +90,14 @@ body {
     margin-right: 95%;
     position: absolute;
 }
+.figuras1{
+    width: 15%;
+    position: absolute;
+    top: 247.5px;
+    bottom: 200px;
+    left: -5px;
+    
+}
 
 .invite-header {
     font-size: 280%;
@@ -219,9 +227,9 @@ img:hover{
 }
 
 .cylinder1 {
-    margin-right: -40%;
+    margin-right: -25%;
     width: 300px;
-    height: 600px;
+    height: 650px;
     background-color: #96dcf1;
     /* border: 2px solid #ffffff; */
     border-top-left-radius: 9999px;
@@ -235,9 +243,9 @@ img:hover{
 }
 
 .cylinder2 {
-    margin-right: -40%;
+    margin-left: 10%;
     width: 300px;
-    height: 600px;
+    height: 650px;
     background-color: #95ebe6;
     border: 2px solid #ffffff;
     border-top-left-radius: 9999px;
@@ -251,9 +259,10 @@ img:hover{
 }
 
 .cylinder3 {
+    margin-left: -15%;
     width: 300px;
     height: 600px;
-    background-color: #cbbfd1;
+    background-color: #e7c1f7;
     border: 2px solid #ffffff;
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -442,3 +451,57 @@ img:hover{
     padding: 10px ;    
     left: 1200px;
 }
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0074D9;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+#nombre,
+#edad,
+#correo,
+#ciudad {
+    border: 2px solid #0074D9;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0074D9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

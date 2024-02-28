@@ -80,7 +80,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third Selection</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
     <div class="third-selection">
@@ -96,12 +96,12 @@
                     <img src="img/Intel-logo-2022.png" alt="Brand Logo" class="logo-image">
                 </div>
                 <div class="zone" id="zone3">
-                    <p class="description">"Lilts Al-powered translation 
-                        ‚services helped us reduce 
+                    <p class="description">"Lilts Al-powered translation, 
+                        services helped us reduce 
                         translation costs by 40%."</p>
                 </div>
                 <div class="zone5">
-                    <p>Lote Dufresne de Viret 
+                    <p><b>Lote Dufresne de Viret</b> 
                         Head of Locatzation</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -125,7 +125,7 @@
                         work with Lilt.”</p>
                 </div>
                 <div class="zone5">
-                    <p>Alessandro Binazzi 
+                    <p><b>Alessandro Binazzi</b> 
                         Head of Global Localizoten</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -148,7 +148,7 @@
                         long-term projects for Canva.”</p>
                 </div>
                 <div class="zone52">
-                    <p>Poul Buckley 
+                    <p><b>Poul Buckley</b> 
                         Locolization Project Monoger</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -158,6 +158,8 @@
             
         </div>
     </div>
+    <button id="scrollToTopBtn" title="Arriba"  style="display: none; background-color: #007bff; color: white; position: fixed; bottom: 70px; right: 40px; z-index: 199; font-size: 18px;">Subir</button>
+    <script src="js/mainPage.js"></script>
 </body>
 
     </div>
@@ -191,5 +193,46 @@
         <div class="pinteres"><img src="./img/pinterest.png"height="80px" width="80px" alt=""></div>
         <div class="sobre_nosotros"> <img src="./img/Lilt-Logo.webp " height="90px" width="100px alt="></div>
   </div>
+  <button class="floating-button" onclick="mostrarPopup()">More information</button>
+
+  <div class="popup" id="miPopup">
+      <span class="close-button" onclick="cerrarPopup()">&times;</span>
+      <p>¡Gracias por tu interés! Por favor, completa el formulario para obtener más información:</p>
+      <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required><br>
+
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" required><br>
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required><br>
+
+          <label for="ciudad">Ciudad de residencia:</label>
+          <input type="text" id="ciudad" name="ciudad" required><br>
+
+          <input type="submit" value="Enviar">
+      </form>
+  </div>
+
+  <script>
+      function mostrarPopup() {
+          document.getElementById("miPopup").style.display = "block";
+      }
+
+      function cerrarPopup() {
+          document.getElementById("miPopup").style.display = "none";
+      }
+  </script>
+
+ 
+
+
+    
+
+
+
+
+
 </body>
 </html>
