@@ -504,4 +504,24 @@ input[type="submit"] {
     font-size: 16px;
     cursor: pointer;
 }
+#scrollToBottomBtn{
+    display: none;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 90px;
+    z-index: 199;
+    font-size: 18px;
+}
+#scrollToTopBtn{
+    display: none;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 199;
+    font-size: 18px;
+}
 
