@@ -173,7 +173,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 a{
@@ -186,7 +186,7 @@ a{
 }
 .more-logos img {
     max-width: 190px;
-    margin: 0 2%;
+    margin: 0 -10%;
 }
 .la{
     max-width: 190px;
@@ -253,7 +253,7 @@ img:hover{
 .cylinder3 {
     width: 300px;
     height: 600px;
-    background-color: #e7c1f7;
+    background-color: #cbbfd1;
     border: 2px solid #ffffff;
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
@@ -265,8 +265,78 @@ img:hover{
     position: relative;
 }
 
+.figure1 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 289px;
+    left: 25px;
+    border-radius: 0px 0px 50px 0px;
+    transform: translate(-50%, -50%);
+    background-color:#96dcf1;
+    padding: 10px; 
+  }
+
+  .cicle1 {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 236px;
+    left: 26px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    background-color:#96dcf1;
+    padding: 10px; 
+  }
+
+  .figure2 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 293px;
+    left: 276px;
+    border-radius: 0px 50px 0px 0px;
+    transform: translate(-50%, -50%);
+    background-color:#96dcf1;
+    padding: 10px; 
+  }
+
+  .cicle2 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 293px;
+    left: 229px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    background-color:#96dcf1;
+    padding: 10px; 
+  }
+  .figure3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 282px;
+    left: 25px;
+    border-radius: 0px 0px 50px 0px;
+    transform: translate(-50%, -50%);
+    background-color:#cbbfd1;
+    padding: 10px; 
+  }
+
+  .cicle3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 232px;
+    left: 25px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    background-color:#cbbfd1;
+    padding: 10px; 
+  }
+
 .zone {
-    
     width: 100%;
     height: 60%;
     display: flex;
