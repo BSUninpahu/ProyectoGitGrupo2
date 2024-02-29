@@ -68,13 +68,13 @@
                         <img src="img/juniper-logo.png" alt="Juniper Logo">
                     </a>
                     <a class="la" href="https://www.walkme.com/">
-                        <img src="img/walkme-logo.png" alt="Walkme Logo">
+                        <img src="img/walkme-logo.png" alt="Walkme Logo" style="width: 140px; height: 50px;">
                     </a>
                     <a class="la" href="https://www.digitalocean.com/">
-                        <img src="img/digitalocean-logo.png" alt="DigitalOcean Logo">
+                        <img src="img/digitalocean-logo.png" alt="DigitalOcean Logo" style="width: 190px; height: 33px;">
                     </a>
                     <a class="la" href="https://orca.security/">
-                        <img src="img/orca-logo.png" alt="Orca Security Logo">
+                        <img src="img/orca-logo.png" alt="Orca Security Logo" style="width: 100px; height: 50px;">
                     </a>
                 </div>
             </div>
@@ -86,7 +86,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third Selection</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
     <div class="third-selection">
@@ -95,17 +95,19 @@
             <div class="cylinder1">
                 <div class="zone" id="zone1">
                     <img src="img/Persona1.png" alt="Person 1">
+                    <div class="cicle1"></div>
+                    <div class="figure1"></div>
                 </div>
                 <div id="zone2">
                     <img src="img/Intel-logo-2022.png" alt="Brand Logo" class="logo-image">
                 </div>
                 <div class="zone" id="zone3">
-                    <p class="description">"Lilts Al-powered translation 
-                        ‚services helped us reduce 
+                    <p class="description">"Lilts Al-powered translation, 
+                        services helped us reduce 
                         translation costs by 40%."</p>
                 </div>
                 <div class="zone5">
-                    <p>Lote Dufresne de Viret 
+                    <p><b>Lote Dufresne de Viret</b> 
                         Head of Locatzation</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -116,6 +118,8 @@
             <div class="cylinder2">
                 <div class="zone" id="zone1">
                     <img src="img/Persona2.png" alt="Person 1">
+                    <div class="cicle2"></div>
+                    <div class="figure2"></div>
                 </div>
                 <div id="zone2">
                     <img src="img/Asics-Logo.png" alt="Brand Logo" class="logo-image" style="margin-bottom: -10%;">
@@ -127,7 +131,7 @@
                         work with Lilt.”</p>
                 </div>
                 <div class="zone5">
-                    <p>Alessandro Binazzi 
+                    <p><b>Alessandro Binazzi</b> 
                         Head of Global Localizoten</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -138,6 +142,8 @@
             <div class="cylinder3">
                 <div class="zone" id="zone1">
                     <img src="img/Persona3.png" alt="Person 1">
+                    <div class="cicle3"></div>
+                    <div class="figure3"></div>
                 </div>
                 <div id="zone2">
                     <img src="img/Canva_logo.png" alt="Brand Logo" class="logo-image">
@@ -148,7 +154,7 @@
                         long-term projects for Canva.”</p>
                 </div>
                 <div class="zone52">
-                    <p>Poul Buckley 
+                    <p><b>Poul Buckley</b> 
                         Locolization Project Monoger</p>
                 </div>
                 <div class="zone" id="zone4">
@@ -158,6 +164,9 @@
             
         </div>
     </div>
+    <button id="scrollToTopBtn" title="Arriba">Subir</button>
+    <button id="scrollToBottomBtn" title="Abajo">Bajar</button>
+    <script src="js/mainPage.js"></script>
 </body>
 
     </div>
@@ -183,6 +192,8 @@
         </div>
     </div>
   <div class="footer">
+        <div class="Gmail"><img src="./img/IconoGmail.png"height="80px" width="80px" alt=""></div>
+        <div class="Facebook"><img src="./img/iconofacebook.png"height="100px" width="110px" alt=""></div>
         <div class="contacto" ><img src="./img/whatsapp.png" height="80px" width="80px" alt=""></div>
         <div class="instagram" ><img src="./img/instagram.png"  height="80px" width="80px" alt=""></div>
         <div class="maps"><img src="./img/mapa.png" height="80px" width="80px" alt=""></div>
@@ -191,5 +202,42 @@
         <div class="pinteres"><img src="./img/pinterest.png"height="80px" width="80px" alt=""></div>
         <div class="sobre_nosotros"> <img src="./img/Lilt-Logo.webp " height="90px" width="100px alt="></div>
   </div>
+  <button class="floating-button" onclick="mostrarPopup()">More information</button>
+
+  <div class="popup" id="miPopup">
+      <span class="close-button" onclick="cerrarPopup()">&times;</span>
+      <p>¡Gracias por tu interés! Por favor, completa el formulario para obtener más información:</p>
+      <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required><br>
+
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" required><br>
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required><br>
+
+          <label for="ciudad">Ciudad de residencia:</label>
+          <input type="text" id="ciudad" name="ciudad" required><br>
+
+          <input type="submit" value="Enviar">
+      </form>
+  </div>
+
+  <script>
+      function mostrarPopup() {
+          document.getElementById("miPopup").style.display = "block";
+      }
+
+      function cerrarPopup() {
+          document.getElementById("miPopup").style.display = "none";
+      }
+  </script>
+
+ 
+
+
+
+
 </body>
 </html>
